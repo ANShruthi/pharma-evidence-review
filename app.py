@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 PROJECT = Path(__file__).resolve().parent
-DATA_FILE = PROJECT / "data" / "processed" / "evidence_matrix.csv"
+DATA_FILE = PROJECT / "evidence_matrix.csv"
 
 st.set_page_config(
     page_title="Pharmaceutical Evidence Review",
